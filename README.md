@@ -37,4 +37,4 @@ Check out the [roadmap](ROADMAP.md) for more details on the future of canister.
 #License:
 
 Copyright Stupefy 2015.The code is released under Apache 2.0 license. You can
-see the License file [license](LICENSE.md).
+see the License file [license](LICENSE).
