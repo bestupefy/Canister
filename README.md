@@ -1,3 +1,5 @@
+[![Documentation Status](https://readthedocs.org/projects/canister/badge/?version=latest)](https://readthedocs.org/projects/canister/?badge=latest)
+
 #Canister:
 
 Canister is a mangement and configuration tool for managing 
