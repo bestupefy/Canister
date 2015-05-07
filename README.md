@@ -3,13 +3,11 @@
 #Canister:
 
 Canister is a mangement and configuration tool for managing 
-your docker containers and images for a real time production enviorment.
-
-Another copy of the project can be obtained at ramitsurana05/canister.
+your Linux containers and images for a real time production enviorment.
 
 #Features:
 
-- Built on HTML,CSS,JS,Bootstrap etc.
+- Built on HTML,CSS,JS,Bootstrap,Go etc.
 - Easy to use GUI
 - CLI mode 
 
@@ -26,15 +24,20 @@ Check out the [roadmap](ROADMAP.md) for more details on the future of canister.
 - What is Canister ?
 
   Canister is a mangement and configuration tool for managing 
-  your docker containers and images
+  your Linux containers and images
 
 - Is it similar to shipyard-master/LXC web panel/Kitematics ?
 
   No. This tool has some advanced and better working model than them. 
   
-#Using canister on Linux
+- What images and services are supported by Canister ?
 
-`Canister` consists of a single self-contained CLI, and is currently supported on Linux. A modern kernel is required. We recommend booting up a fresh virtual machine to test out Canister.
+  Canister supports both Docker and rkt.Both of them are one of the most popular
+  services around the globe.
+  
+#Using Canister on Linux
+
+Canister consists of a single self-contained CLI, and is currently supported on Linux. A modern kernel is required. We recommend booting up a fresh virtual machine to test out Canister.
 
 #License:
 
