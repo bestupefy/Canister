@@ -2,7 +2,9 @@
 
 #Canister:
 
-Canister is a mangement and configuration tool for managing 
+Hi my name is Canister.
+
+I am a mangement and configuration tool for managing 
 your Linux containers and images for a real time production enviorment.
 
 #Features:
