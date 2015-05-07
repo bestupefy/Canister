@@ -1,13 +1,13 @@
 [![Documentation Status](https://readthedocs.org/projects/canister/badge/?version=latest)](https://readthedocs.org/projects/canister/?badge=latest)
 
-#Canister:
+#Hi I am 
 
-Hi my name is Canister.
+#Canister:
 
 I am a mangement and configuration tool for managing 
 your Linux containers and images for a real time production enviorment.
 
-#Features:
+#Built on:
 
 - Built on HTML,CSS,JS,Bootstrap,Go etc.
 - Easy to use GUI
@@ -17,7 +17,7 @@ your Linux containers and images for a real time production enviorment.
 
 Canister is at an early stage and under active development. We do not recommend its use in production, but we encourage you to try out rkt and provide feedback via issues and pull requests.
 
-#Future Plans:
+#Having some Future Plans:
 
 Check out the [roadmap](ROADMAP.md) for more details on the future of canister.
 
@@ -37,11 +37,17 @@ Check out the [roadmap](ROADMAP.md) for more details on the future of canister.
   Canister supports both Docker and rkt.Both of them are one of the most popular
   services around the globe.
   
-#Using Canister on Linux
+#Built for Linux:
 
 Canister consists of a single self-contained CLI, and is currently supported on Linux. A modern kernel is required. We recommend booting up a fresh virtual machine to test out Canister.
 
-#License:
+#Licensed:
 
 Copyright Stupefy 2015.The code is released under Apache 2.0 license. You can
 see the License file [license](LICENSE).
+
+#On:
+
+- [Twitter](https://twitter.com/ramitsurana)
+- [Website]
+- [Docs](http://canister.readthedocs.org)
