@@ -1,9 +1,7 @@
 #Getting Started:
 
-You have to first install the canister package. Choose your containers
-from:
-Docker
-Rkt
+You have to first install the canister package. You can choose your containers
+from Docker or Rkt.
 
 Click install.
 
