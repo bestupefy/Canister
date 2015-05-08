@@ -9,9 +9,11 @@ your Linux containers and images for a real time production enviorment.
 
 #Built on:
 
-- Built on HTML,CSS,JS,Bootstrap,Go etc.
-- Easy to use GUI
-- CLI mode 
+- HTML5
+- CSS3
+- JS
+- Bootstrap3
+- Go
 
 #Project Status:
 
@@ -21,7 +23,7 @@ Canister is at an early stage and under active development. We do not recommend 
 
 Check out the [roadmap](ROADMAP.md) for more details on the future of canister.
 
-#FAQ:
+#Have Answers to FAQ's:
 
 - What is Canister ?
 
@@ -39,15 +41,15 @@ Check out the [roadmap](ROADMAP.md) for more details on the future of canister.
   
 #Built for Linux:
 
-Canister consists of a single self-contained CLI, and is currently supported on Linux. A modern kernel is required. We recommend booting up a fresh virtual machine to test out Canister.
+Canister consists of a single self-contained CLI, and is currently supported on Linux. A modern kernel is required. I recommend booting up a fresh virtual machine to test out Canister.
 
-#Licensed:
+#Licensed Under:
 
 Copyright Stupefy 2015.The code is released under Apache 2.0 license. You can
 see the License file [license](LICENSE).
 
-#On:
+#Available On:
 
 - [Twitter](https://twitter.com/ramitsurana)
-- [Website]
+- [Website](https://ramitsurana.blogspot.in)
 - [Docs](http://canister.readthedocs.org)
