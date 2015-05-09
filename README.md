@@ -45,7 +45,7 @@ Canister consists of a single self-contained CLI, and is currently supported on 
 
 #Licensed Under:
 
-Copyright Stupefy 2015.The code is released under Apache 2.0 license. You can
+Copyright Bestupefy 2015.The code is released under Apache 2.0 license. You can
 see the License file [license](LICENSE).
 
 #Available On:
