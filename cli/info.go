@@ -6,12 +6,12 @@ import (
 	"text/tabwriter"
 
 	"github.com/codegangsta/cli"
-	"github.com/shipyard/shipyard/client"
+	"github.com/bestupefy/canister"
 )
 
 var infoCommand = cli.Command{
 	Name:   "info",
-	Usage:  "show cluster info",
+	Usage:  "show info",
 	Action: infoAction,
 }
 
