@@ -5,7 +5,7 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/codegangsta/cli"
-	"github.com/shipyard/shipyard"
+	"github.com/bestupefy/canister"
 )
 
 var (
@@ -27,9 +27,9 @@ func main() {
 		}
 	}
 	app := cli.NewApp()
-	app.Name = "shipyard"
-	app.Usage = "manage a shipyard cluster"
-	app.Version = shipyard.VERSION
+	app.Name = "canister"
+	app.Usage = "manage your canister"
+	app.Version = canister.VERSION
 	app.EnableBashCompletion = true
 	app.Flags = []cli.Flag{
 		cli.BoolFlag{
