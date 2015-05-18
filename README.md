@@ -3,6 +3,7 @@
 #Hi I am 
 
 #Canister:
+![logo_design_9](https://cloud.githubusercontent.com/assets/8342133/7682695/80c136de-fd97-11e4-92fc-4b2846489109.jpg)
 
 I am a mangement and configuration tool for managing 
 your Linux containers and images for a real time production enviorment.
