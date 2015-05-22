@@ -38,7 +38,7 @@ Check out the [roadmap](ROADMAP.md) for more details on the future of canister.
   
 - What images and services are supported by Canister ?
 
-  Canister supports both Docker and rkt.Both of them are one of the most popular
+  Canister supports Docker.Docker is one of the most popular
   services around the globe.
   
 #Built for Linux:
