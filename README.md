@@ -25,7 +25,7 @@ your Linux containers and images for a real time production enviorment.
 
 #Project Status:
 
-Canister is at an early stage and under active development. We do not recommend its use in production, but we encourage you to try out rkt and provide feedback via issues and pull requests.
+Canister is at an early stage and under active development. We do not recommend its use in production, but we encourage you to try out canister and provide feedback via issues and pull requests.
 
 #Having some Future Plans:
 
