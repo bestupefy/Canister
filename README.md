@@ -31,16 +31,12 @@ Canister is at an early stage and under active development. We do not recommend 
 
 Check out the [roadmap](ROADMAP.md) for more details on the future of canister.
 
-#Have Answers to FAQ's:
+#Having Answers to some of your FAQ's:
 
 - What is Canister ?
 
   Canister is a mangement and configuration tool for managing 
   your Linux containers and images
-
-- Is it similar to shipyard-master/LXC web panel/Kitematics ?
-
-  No. This tool has some advanced and better working model than them. 
   
 - What images and services are supported by Canister ?
 
