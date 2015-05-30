@@ -12,3 +12,450 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+<html>
+<head>
+<title>Canister</title>
+<link rel="stylesheet" type="text/css" href="../styles/global.css" />
+<link href='http://fonts.googleapis.com/css?family=Marvel:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<link rel="shortcut icon" type="image/x-icon" href="../images/company.png" />
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Canister</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Images <span class="caret">
+          </span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="cloud.html"> Cloud </a></li>
+            <li><a href="os.html"> Operating systems </a></li>
+            <li><a href="App.html"> Softwares </a></li>
+          </ul>
+        </li>
+        <li><a href="App.html"><i class="fa fa-refresh"></i> Refresh </a></li>
+        <li><a href="project.html"><i class="fa fa-group"></i> Project </a></li>
+        <li><a href="status.html"><i class="fa fa-laptop"></i> Status </a></li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-sign-in"></i>
+           Sign In <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#"> View Profile </i></a></li>
+            <li><a href="#"> Settings </i></a></li>
+            <li><a href="#"> Help</i></a></li>
+            <li class="divider"></li>
+            <li><a href="#">Sign Out </a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container-fluid">
+<div class="col">
+  <div class="col-md-3">
+    <div class="thumbnail" style="position:relative;">
+      <img src="..\images\apps\github.png" alt="...">
+      <div class="caption">
+        <h3> Github </h3>
+        <p> GitHub is a web-based Git repository hosting service,
+         which offers all of the distributed revision control 
+         and source code management (SCM) functionality of Git 
+         as well as adding its own features.Open source code sharing
+         means Github.
+        </p>
+        <p>
+          <form name-"form2" method-"post" action-"http://localhost/cgi-bin/.sh">
+      <p>
+        <input type="submit" style="position:relative; left: 3px;"name="submit" value="INSTALL" style=>
+      </p>
+    </form>
+         <a href="https://www.github.com" target="_blank" class="btn btn-default" role="button">View more</a>
+       </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="col-md-3">
+    <div class="thumbnail" style="position:relative;">
+      <img src="..\images\apps\go.png" alt="Golang" >
+      <div class="caption">
+        <h3> Go </h3>
+        <p>It is a statically-typed language with syntax loosely derived from that of C,
+         adding garbage collection, type safety, some dynamic-typing capabilities,
+          additional built-in types such as variable-length arrays and key-value maps.</p>
+        <p>
+          <form name-"form2" method-"post" action-"http://localhost/cgi-bin/first.sh">
+      <p>
+        <input type="submit" style="position:relative; right: 3px;"name="submit" value="INSTALL" style=>
+      </p>
+    </form> <a href="https://www.golang.org" target="_blank" class="btn btn-default" role="button"> View more</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="col-md-3">
+    <div class="thumbnail" style="position:relative;">
+      <img src="..\images\apps\java.png" alt="Java">
+      <div class="caption">
+        <h3> Java </h3>
+        <p>Java is a general-purpose computer programming language 
+          that is concurrent, class-based, object-oriented,specifically 
+          designed to have as few implementation dependencies as possible.
+          Intended to let developers to "write once, run anywhere"
+        </p>
+        <p>
+          <form name-"form2" method-"post" action-"http://localhost/cgi-bin/first.sh">
+      <p>
+        <input type="submit" style="position:relative; right: 3px;"name="submit" value="INSTALL" style=>
+      </p>
+    </form> 
+    <a href="https://www.java.com" target="_blank" class="btn btn-default" role="button"> View more</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="col-md-3">
+    <div class="thumbnail" style="position:relative;">
+      <img src="..\images\apps\chrome.jpg" alt="Google Chrome">
+      <div class="caption">
+        <h3> Google Chrome </h3>
+        <p> Google Chrome is a freeware web browser developed by Google. 
+          It used the WebKit layout engine until version 27 and, with 
+          the exception of its iOS releases, from version 28 and beyond
+          uses the WebKit fork Blink.It is one of the most popular web 
+          browsers around globe.</p>
+        <p>
+          <form name-"form2" method-"post" action-"http://localhost/cgi-bin/scripts/docker/apps/browser/chrome/chrome.sh">
+      <p>
+        <input type="submit" style="position:relative; right: 3px;"name="submit" value="INSTALL" style=>
+      </p>
+    </form> 
+    <a href="https://www.google.com/chrome/" target="_blank" class="btn btn-default" role="button"> View more</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="col-md-3">
+    <div class="thumbnail" style="position:relative;">
+      <img src="..\images\apps\tor.png" alt="...">
+      <div class="caption">
+        <h3>Tor Browser </h3>
+        <p> Tor Browser is the flagship product of The Tor Project.
+         It consists of a modified Mozilla Firefox, the TorButton, 
+         TorLauncher, NoScript and HTTPS Everywhere Firefox extensions
+          and the Tor proxy.The Tor Browser automatically starts Tor 
+          background processes.
+          </p>
+        <p><p>
+          <form name-"form2" method-"post" action-"http://localhost/cgi-bin/first.sh">
+      <p>
+        <input type="submit" style="position:relative; right: 3px;"name="submit" value="INSTALL" style=>
+      </p>
+    </form>
+     <a href="https://www.torproject.org" target="_blank" class="btn btn-default" role="button"> View more</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="col-md-3">
+    <div class="thumbnail" style="position:relative;">
+      <img src="..\images\apps\python.png" alt="...">
+      <div class="caption">
+        <h3> Python </h3>
+        <p> Python is a widely used general-purpose, high-level programming language.
+         Its design philosophy emphasizes code readability, and its syntax allows 
+         programmers to express concepts in fewer lines of code than would be possible
+         in languages such as C++ or Java </p>
+        <p>
+          <form name-"form2" method-"post" action-"http://localhost/cgi-bin/first.sh">
+      <p>
+        <input type="submit" style="position:relative; right: 3px;"name="submit" value="INSTALL" style=>
+      </p>
+    </form>
+     <a href="https://www.python.org" target="_blank" class="btn btn-default" role="button"> View more</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="col-md-3">
+    <div class="thumbnail" style="position:relative;">
+      <img src="..\images\apps\nginx.png" alt="...">
+      <div class="caption">
+        <h3> Nginx </h3>
+        <p> Nginx is an open source reverse proxy server for HTTP,
+         HTTPS, SMTP, POP3, and IMAP protocols, as well as a load balancer, 
+         HTTP cache, and a web server. The nginx project started with a strong 
+         focus on high concurrency, high performance and low memory usage </p>
+        <p>
+          <form name-"form2" method-"post" action-"http://localhost/cgi-bin/first.sh">
+      <p>
+        <input type="submit" style="position:relative; right: 3px;"name="submit" value="INSTALL" style=>
+      </p>
+    </form>
+    <a href="https://www.nginx.com" target="_blank" class="btn btn-default" role="button"> View more</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-3">
+    <div class="thumbnail" style="position:relative;">
+      <img src="..\images\apps\nodejs.png" alt="...">
+      <div class="caption">
+        <h3> NodeJS </h3>
+        <p> Node.js is an open source, cross-platform runtime environment
+         for server-side and networking applications. Node.js applications
+          are written in JavaScript.Node.js provides an event-driven 
+          architecture and a non-blocking I/O API that optimizes an 
+          application's throughput</p>
+        <p>
+          <form name-"form2" method-"post" action-"http://localhost/cgi-bin/first.sh">
+      <p>
+        <input type="submit" style="position:relative; right: 3px;"name="submit" value="INSTALL" style=>
+      </p>
+    </form>
+    <a href="https://www.nodejs.org" target="_blank" class="btn btn-default" role="button"> View more</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="col-md-3">
+    <div class="thumbnail" style="position:relative;">
+      <img src="..\images\apps\spotify.jpg" alt="...">
+      <div class="caption">
+        <h3> Spotify </h3>
+        <p> Spotify is a commercial music streaming service that provides 
+          digital rights management-restricted content from record labels 
+          including Sony, EMI, Warner Music Group, and Universal.Music can
+           be browsed or searched by artist, album, genre, playlist, or record label.</p>
+        <p>
+          <form name-"form2" method-"post" action-"http://localhost/cgi-bin/first.sh">
+      <p>
+        <input type="submit" style="position:relative; right: 3px;"name="submit" value="INSTALL" style=>
+      </p>
+    </form>
+     <a href="https://www.spotify.com" target="_blank" class="btn btn-default" role="button"> View more</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="col-md-3">
+    <div class="thumbnail" style="position:relative;">
+      <img src="..\images\apps\mysql.jpg" alt="...">
+      <div class="caption">
+        <h3> MySql </h3>
+        <p> MySQL is the world's second most widely used relational database
+         management system (RDBMS) and most widely used open-source RDBMS.
+         It is named after co-founder Michael Widenius's daughter, My.
+         The SQL acronym stands for Structured Query Language. </p>
+        <p>
+          <form name-"form2" method-"post" action-"http://localhost/cgi-bin/first.sh">
+      <p>
+        <input type="submit" style="position:relative; right: 3px;"name="submit" value="INSTALL" style=>
+      </p>
+    </form>
+     <a href="https://www.mysql.com" target="_blank" class="btn btn-default" role="button"> View more</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="col-md-3">
+    <div class="thumbnail" style="position:relative;">
+      <img src="..\images\apps\rabbitmq.png" alt="...">
+      <div class="caption">
+        <h3> RabbitMQ </h3>
+        <p> RabbitMQ is open source message broker software that implements the
+         Advanced Message Queuing Protocol (AMQP). The RabbitMQ server is written
+        in the Erlang programming language and is built on the Open Telecom Platform
+        framework for clustering and failover.</p>
+        <p>
+          <form name-"form2" method-"post" action-"http://localhost/cgi-bin/first.sh">
+      <p>
+        <input type="submit" style="position:relative; right: 3px;"name="submit" value="INSTALL" style=>
+      </p>
+    </form>
+     <a href="https://www.rabbitmq.com" target="_blank" class="btn btn-default" role="button"> View </a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="col-md-3">
+    <div class="thumbnail" style="position:relative;">
+      <img src="..\images\apps\haproxy.png" alt="...">
+      <div class="caption">
+        <h3> HAProxy </h3>
+        <p> HAProxy is a free, open source high availability solution, 
+          providing load balancing and proxying for TCP and HTTP-based 
+          applications by spreading requests across multiple servers.
+          It is written in and has a reputation for being fast and efficient
+          HAProxy is used by a number of high-profile websites including GitHub,
+          Bitbucket,Stack Overflow,Reddit, Tumblr, and Twitter.</p>
+        <p>
+          <form name-"form2" method-"post" action-"http://localhost/cgi-bin/first.sh">
+      <p>
+        <input type="submit" style="position:relative; right: 3px;"name="submit" value="INSTALL" style=>
+      </p>
+    </form>
+     <a href="https://www.haproxy.org" target="_blank" class="btn btn-default" role="button"> View more </a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="col-md-3">
+    <div class="thumbnail" style="position:relative;">
+      <img src="..\images\apps\skype.png" alt="...">
+      <div class="caption">
+        <h3> Skype </h3>
+        <p> Skype is a telecommunications application software
+         product that specializes in providing video chat and 
+         voice calls from computers, tablets and mobile devices
+          via the Internet to other devices or telephones/smartphones </p>
+        <p>
+          <form name-"form2" method-"post" action-"http://localhost/cgi-bin/first.sh">
+      <p>
+        <input type="submit" style="position:relative; right: 3px;"name="submit" value="INSTALL" style=>
+      </p>
+    </form> 
+    <a href="https://www.skype.com" target="_blank" class="btn btn-default" role="button"> View more</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="col-md-3">
+    <div class="thumbnail" style="position:relative;">
+      <img src="..\images\apps\gparted.png" alt="...">
+      <div class="caption">
+        <h3> GParted </h3>
+        <p> Used for creating, deleting, resizing, moving, checking and copying partitions,
+         and the file systems on them. This is useful for creating space for new operating systems,
+          reorganizing disk usage, copying data residing on hard disks and mirroring one
+          partition with another. The GParted project provides a live operating system including 
+          GParted which can be written to a Live CD, a Live USB and other media</p>
+        <p>
+          <form name-"form2" method-"post" action-"http://localhost/cgi-bin/first.sh">
+      <p>
+        <input type="submit" style="position:relative; right: 3px;"name="submit" value="INSTALL" style=>
+      </p>
+    </form>
+     <a href="https://www.gparted.org" target="_blank" class="btn btn-default" role="button"> View more</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="col-md-3">
+    <div class="thumbnail" style="position:relative;">
+      <img src="..\images\apps\elasticsearch.jpg">
+      <div class="caption">
+        <h3> ElasticSearch </h3>
+        <p> It is used for creating, deleting, resizing, moving, checking and copying partitions,
+         and the file systems on them. It is useful for creating space for new operating systems,
+         reorganizing disk usage, copying data residing on hard disks and mirroring one
+         partition with another. </p>
+        <p>
+          <form name-"form2" method-"post" action-"http://localhost/cgi-bin/first.sh">
+      <p>
+        <input type="submit" style="position:relative; right: 3px;"name="submit" value="INSTALL" style=>
+      </p>
+    </form>
+     <a href="https://www.gparted.org" target="_blank" class="btn btn-default" role="button"> View more</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="col-md-3">
+    <div class="thumbnail" style="position:relative;">
+      <img src="..\images\apps\rocket.png" alt="...">
+      <div class="caption">
+        <h3> Rocket </h3>
+        <p> Hi there akjfsln </p>
+        <p>
+          <form name-"form2" method-"post" action-"http://localhost/cgi-bin/first.sh">
+      <p>
+        <input type="submit" style="position:relative; right: 3px;"name="submit" value="INSTALL" style=>
+      </p>
+    </form>
+     <a href="https://www.github.com/coreos/rkt" target="_blank" class="btn btn-default" role="button"> View more</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<nav>
+  <ul class="pagination pagination-right">
+    <li>
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<div class="col-md-12" style="background-color:#FFFFFF;text-align:left;margin:0px;padding:0px;"><h3 style="font-size:20px;color:black;">&copy; 2015 Bestupefy Inc.</h3>
+<a href="https://twitter.com/RamitSurana" class="twitter-follow-button" data-show-count="true">Follow @RamitSurana</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="RamitSurana">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<iframe src="https://ghbtns.com/github-btn.html?user=ramitsurana05&repo=canister&type=star&count=true&size=small" frameborder="0" scrolling="0" width="80px" height="20px"></iframe> 
+<iframe src="https://ghbtns.com/github-btn.html?user=ramitsurana05&repo=canister&type=fork&count=true&size=small" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=ramitsurana05&type=follow&count=true&size=small" frameborder="0" scrolling="0" width="180px" height="20px"></iframe>
+        </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
