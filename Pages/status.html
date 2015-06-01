@@ -1,4 +1,4 @@
-// Copyright 2015 Stupefy, Inc.
+// Copyright 2015 Bestupefy Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -11,3 +11,239 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
+
+<html>
+<head>
+<title>Canister</title>
+<link rel="stylesheet" type="text/css" href="../styles/global.css" />
+<link href='http://fonts.googleapis.com/css?family=Marvel:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<link rel="shortcut icon" type="image/x-icon" href="../images/company.png" />
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" target="_blank" href="http://www.canister.com">Canister</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Images<span class="caret">
+          </span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="cloud.html">Cloud </a></li>
+            <li><a href="os.html">Operating systems</a></li>
+            <li><a href="App.html">Softwares</a></li>
+          </ul>
+        </li>
+        <li><a href="os.html"><i class="fa fa-refresh"></i> Refresh</a></li>
+        <li><a href="project.html"><i class="fa fa-group"></i> Project</a></li>
+        <li><a href="status.html"><i class="fa fa-laptop"></i> Status</a></li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-sign-in"></i> Sign In <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">View Profile</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Help</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Sign Out</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="jumbotron">
+  <h1>Hello, world!</h1>
+  <p>.da;slkjkaj;l
+    aljkndfs;
+    lkajsdnlakdsjnf
+    akjldsbfalkjsdbfaklja
+    aldsbfkjdkljsabflka
+    sdkjalfbf;bajfh;a</p>
+</div>
+
+<div class="progress">
+  <div class="progress-bar progress-bar-success" role="progressbar" style="width:40%">
+    Free Space
+  </div>
+  <div class="progress-bar progress-bar-warning" role="progressbar" style="width:10%">
+    Warning
+  </div>
+  <div class="progress-bar progress-bar-danger" role="progressbar" style="width:20%">
+    Danger
+  </div>
+</div>
+
+<script type="text/javascript">
+  window.onload = function () {
+    var chart = new CanvasJS.Chart("chartContainer",
+    {
+      title:{
+        text: "Different Usage"
+      },
+                        animationEnabled: true,
+      theme: "theme2",
+      data: [
+      {        
+        type: "doughnut",
+        indexLabelFontFamily: "Garamond",       
+        indexLabelFontSize: 20,
+        startAngle:0,
+        indexLabelFontColor: "dimgrey",       
+        indexLabelLineColor: "darkgrey", 
+        toolTipContent: "{y} %",          
+
+        dataPoints: [
+        {  y: 67.34, label: "CPU Usage {y}%" },
+        {  y: 28.6, label: "Memory Usage {y}%" },
+        {  y: 1.78, label: "Kindle {y}%" },
+        {  y: 0.84,  label: "Symbian {y}%"},
+        {  y: 0.74, label: "BlackBerry {y}%" },
+        {  y: 2.06,  label: "Others {y}%"}
+
+        ]
+      }
+      ]
+    });
+
+    chart.render();
+  }
+  </script>
+  <script type="text/javascript" src="../js/canvasjs.min.js"></script>
+        </head>
+  <body>
+    <div id="chartContainer" style="height: 300px; width: 100%;">
+    </div>
+
+<button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
+Basic Updates
+</button>
+
+<table class="table table-striped">
+  <tr class="info">
+    <th>#</th>
+    <th>Name of the containers</th>
+    <th>Image ID's</th>
+    <th>Selections</th>
+    <th>Status</th>
+  </tr>
+   <tr>
+      <td>1</td>
+      <td>Susan</td>
+      <td>14ebkec067jbfdskjl</td>
+      <td>
+      <div class="checkbox">
+      <label>
+      <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+      </label>
+      </div>
+      </td>
+      <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+   </tr>
+   <tr>
+      <td>2</td>
+      <td>David</td>
+      <td>14ebkec067jbfdskjl</td>
+      <td>
+      <div class="checkbox">
+      <label>
+      <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+      </label>
+      </div>
+      </td>
+      <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+   </tr>
+   <tr>
+      <td>3</td>
+      <td>Ramit</td>
+      <td>14ebkec067jbfdskjl</td>
+      <td>
+      <div class="checkbox">
+      <label>
+      <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+      </label>
+      </div>
+      </td>
+      <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+   </tr>
+</table>
+  
+<!-- Single button -->
+<button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
+Information on Ports 
+</button>
+
+<table class="table table-striped" cellspacing="0" width="100%">
+  <tr class="info">
+    <th>#</th>
+    <th>Name of the Application</th>
+    <th>No. of Ports Used</th>
+    <th>Ports Used</th>
+    <th>Options</th>
+    <th>Status</th>
+  </tr>
+   <tr>
+      <td>1</td>
+      <td>Chrome</td>
+      <td>2</td>
+      <td>485,411</td>
+      <td><div class="btn-group" role="group" aria-label="...">
+      <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Open </button>
+      <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close </button>
+      </div></td>
+      <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+   </tr>
+   <tr>
+      <td>2</td>
+      <td>Tor</td>
+      <td>2</td>
+      <td>1485,1024</td>
+      <td><div class="btn-group" role="group" aria-label="...">
+      <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Open </button>
+      <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close </button>
+      </div></td>
+      <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+   </tr>
+   <tr>
+      <td>3</td>
+      <td>Skype</td>
+      <td>3</td>
+      <td>7585,1811</td>
+      <td><div class="btn-group" role="group" aria-label="...">
+      <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Open </button>
+      <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close </button>
+      </div></td>
+      <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+   </tr>
+</table>
+
+<div class="col-md-12" style="background-color:white;text-align:left;margin:0px;padding:0px;"><h3 style="font-size:20px;color:black;">&copy; 2015 Bestupefy Inc.All Rights Reserved.</h3>
+          </div>
+
+</body>
+</html>
