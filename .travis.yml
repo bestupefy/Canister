@@ -1,5 +1,5 @@
-# Configures canister tests at Travis CI (https://travis-ci.org).
-# help
+# Configures the canister tests at Travis CI (https://travis-ci.org).
+
 language: golang
 
 go:
