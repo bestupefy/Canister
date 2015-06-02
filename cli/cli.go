@@ -1,4 +1,4 @@
-//Copyright 2015 Bestupefy.Inc
+//Copyright 2015 Bestupefy Inc
 
   // Licensed under the Apache License, Version 2.0 (the "License");
 //   you may not use this file except in compliance with the License.
@@ -62,7 +62,6 @@ func main() {
 		runCommand,
 		stopCommand,
 		restartCommand,
-		scaleCommand,
 		logsCommand,
 		destroyCommand,
 		engineListCommand,
@@ -79,7 +78,6 @@ func main() {
 		webhookKeyCreateCommand,
 		webhookKeyRemoveCommand,
 		infoCommand,
-		eventsCommand,
 	}
 	app.Run(os.Args)
 }
