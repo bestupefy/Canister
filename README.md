@@ -55,5 +55,5 @@ see the License file [license](LICENSE).
 #Available On:
 
 - [Twitter](https://twitter.com/ramitsurana)
-- [Website](https://ramitsurana.blogspot.in)
+- [Website](https://bestupefy.com)
 - [Docs](http://canister.readthedocs.org)
