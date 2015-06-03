@@ -7,7 +7,6 @@ go:
 
 before_install:
  - sudo apt-get install golang
- - sudo apt-get update -y
 
 script:
- - ./test
+ - ./test.sh
