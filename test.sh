@@ -2,7 +2,7 @@
 
 source ./build
 
-echo "Running tests..."
+echo "Installing..."
 go test -timeout 60s ${COVER} $@ ${TEST} --race
 
 echo "Checking gofmt..."
