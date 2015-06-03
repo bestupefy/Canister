@@ -11,4 +11,5 @@ before_install:
  - cd canister
 
 script:
+ - chmod a+x test
  - ./test
