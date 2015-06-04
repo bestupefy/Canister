@@ -7,6 +7,9 @@ go:
 
 before_install:
  - sudo apt-get install golang
+ - export GOROOT=/usr/local/go
+ - export GOPATH=$canister-rkt/go
+ - export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
  - git clone https://github.com/bestupefy/canister.git
  - cd canister
 
