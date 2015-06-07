@@ -3,9 +3,9 @@
 source ./build
 
 echo "Installing..."
-go test -timeout 60s ${COVER} $@ ${TEST} --race
+go test -timeout 60s $@ ${TEST} --race
 
-echo "Checking gofmt..."
+echo "Checking browser..."
 fmtRes=$(gofmt -l $FMT)
 if [ -n "${fmtRes}" ]; then
 	echo -e "gofmt checking failed:\n${fmtRes}"
