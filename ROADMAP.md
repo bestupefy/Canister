@@ -1,6 +1,6 @@
 # Canister roadmap
 
-**work in progress**
+**Work in progress**
 
 This document shows the future plans for Canister.
 The dates below should not be considered authoritative, but rather a proposed timeline of the project.
@@ -14,3 +14,4 @@ The dates below should not be considered authoritative, but rather a proposed ti
 ###Canister 2.0.1
 - Enabling Support for Kubernetes.
 - Enabling plugin support for Openstack and its services.
+- Enabling Support for Docker Swarm
