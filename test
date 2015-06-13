@@ -2,10 +2,15 @@
 
 source ./build
 
+echo "Checking your envirment ..."
+go env
+
 echo "Installing..."
 go test -timeout 60s $@ ${TEST} --race
 
 echo "Checking browser..."
+sudo whereis chrome
+sudo whereis firefox
 fmtRes=$(gofmt -l $FMT)
 if [ -n "${fmtRes}" ]; then
 	echo -e "gofmt checking failed:\n${fmtRes}"
