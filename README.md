@@ -8,8 +8,8 @@
 
 #Canister:
 
-I am a mangement and configuration tool for managing 
-your Linux containers and images for a real time production enviorment.
+I am a mangement and configuration tool made for managing,playing and enjoying
+your Linux containers and images in a real time production enviorment.
 
 #Built on:
 
@@ -24,7 +24,7 @@ your Linux containers and images for a real time production enviorment.
 ![docker1](https://cloud.githubusercontent.com/assets/8342133/7799499/682fdca0-0324-11e5-8604-71d11ac7fb5b.png)
 
 
-#Having some pics:
+#Having a pic:
 
 ![screenshot](https://cloud.githubusercontent.com/assets/8342133/8228746/d51acf8e-15ce-11e5-925e-f813b0dc0469.png)
 
@@ -35,22 +35,10 @@ Canister is at an early stage and under active development. We do not recommend 
 #Having some Future Plans:
 
 Check out the [roadmap](ROADMAP.md) for more details on the future of canister.
-
-#Having Answers to some of your FAQ's:
-
-- What is Canister ?
-
-  Canister is a mangement and configuration tool for managing 
-  your Linux containers and images
   
-- What images and services are supported by Canister ?
+#Built for All OS's:
 
-  Canister supports Docker.Docker is one of the most popular
-  services around the globe.
-  
-#Built for Linux:
-
-Canister consists of a single self-contained CLI, and is currently supported on Linux. A modern kernel is required. I recommend booting up a fresh virtual machine to test out Canister.
+Wheather it is Mac,Windows or Linux.I am available everywhere just like docker.
 
 #Licensed Under:
 
@@ -59,6 +47,6 @@ see the License file [license](LICENSE).
 
 #Available On:
 
-- [Twitter](https://twitter.com/ramitsurana)
+- [Twitter](https://twitter.com/bestupefy)
 - [Website](https://bestupefy.com)
 - [Docs](http://canister.readthedocs.org)
