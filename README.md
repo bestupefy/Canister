@@ -38,7 +38,7 @@ Check out the [roadmap](ROADMAP.md) for more details on the future of canister.
   
 #Built for All OS's:
 
-Wheather it is Mac,Windows or Linux.I am available everywhere just like docker.
+Wheather it is Mac,Windows or Linux.I am available everywhere just like docker:)
 
 #Licensed Under:
 
