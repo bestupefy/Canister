@@ -1,8 +1,7 @@
 [![Documentation Status](https://readthedocs.org/projects/canister/badge/?version=latest)](https://readthedocs.org/projects/canister/?badge=latest)
-[![godoc](https://godoc.org/github.com/bestupefy/canister?status.svg)](http://godoc.org/github.com/bestupefy/canister)
-[![Build Status](https://travis-ci.org/bestupefy/canister.svg?branch=master)](https://travis-ci.org/bestupefy/canister)
 
-![logo_design_9](https://cloud.githubusercontent.com/assets/8342133/7682695/80c136de-fd97-11e4-92fc-4b2846489109.jpg)
+![12080_24 media tumblr com](https://cloud.githubusercontent.com/assets/8342133/8405475/5de34aca-1e72-11e5-8621-d1bf13dac714.jpg)
+
 
 #Hi I am 
 
