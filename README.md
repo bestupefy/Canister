@@ -1,8 +1,6 @@
 [![Documentation Status](https://readthedocs.org/projects/canister/badge/?version=latest)](https://readthedocs.org/projects/canister/?badge=latest)
 
-
-![12080_24 media tumblr com](https://cloud.githubusercontent.com/assets/8342133/8405565/137e065e-1e73-11e5-9e97-6726c8d2bee9.jpg)
-
+![12080_24 media tumblr com](https://cloud.githubusercontent.com/assets/8342133/8405611/691885e4-1e73-11e5-90f8-f2d636d8568c.jpg)
 
 #Hi I am 
 
