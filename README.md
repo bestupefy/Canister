@@ -6,8 +6,7 @@
 
 #Canister:
 
-I am a mangement and configuration tool made for managing,playing and enjoying
-your Linux containers and images in a real time production enviorment.
+I am a Infrastructure management tool to ease up the adoption of Docker containers in your current infrastructure.
 
 #Built on:
 
